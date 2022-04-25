@@ -75,7 +75,7 @@ const timer = () => {
       secondsBlock.nextElementSibling.textContent = "секунд";
     }
   };
-
+  updateTimer();
   interval = setInterval(updateTimer, 500);
 };
 
